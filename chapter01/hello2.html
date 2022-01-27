@@ -13,12 +13,22 @@
 	<div class="content">
 		<div class="main">
 			<h1>Writing to the Document Window</h1>
-			
+			<script>
+				document.write("<p>Helloworld</p>")
+				
+				function changecoler(){
+					document.body.style.backgroundColor = "orange"
+				}
+			</script>
+			<button onclick="changecoler()">
+				Clickme!
+			</button>
 		</div>
 	</div>
 	<footer>
-		<p>JavaScript &amp; jQuery: The Missing Manual, 3rd Edition, by <a href="http://sawmac.com/">David McFarland</a>. Published by <a href="http://oreilly.com/">O'Reilly Media, Inc</a>.</p>
+		<p><script>Date</script> avaScript &amp; jQuery: The Missing Manual, 3rd Edition, by <a href="http://sawmac.com/">David McFarland</a>. Published by <a href="http://oreilly.com/">O'Reilly Media, Inc</a>.</p>
 	</footer>
 </div>
+<script src="name.js"></script>
 </body>
 </html>
